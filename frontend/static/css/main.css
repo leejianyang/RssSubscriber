@@ -1,0 +1,95 @@
+#top-nav {
+    min-height: 50px;
+    background-color: #4B515D;
+    padding: 0 20px;
+}
+
+.sidebar {
+    position: fixed;
+    top: 51px;
+    bottom: 0;
+    left: 0;
+    padding: 20px 5px 20px 0;
+    overflow-x: hidden;
+    overflow-y: auto;
+    background-color: #e0e0e0;
+}
+
+
+body {
+    padding-top: 50px;
+}
+
+.main {
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+#feed-header {
+    border-bottom: 2px solid #4B515D;
+    height: 90px;
+}
+
+#entry-list {
+    margin-top: 20px;
+}
+
+.entry-updated,.entry-settings {
+    font-size: 12px;
+}
+
+.entry-updated {
+    float: left;
+}
+
+.entry-start,.entry-read {
+    display: inline;
+    padding: 5px;
+}
+
+#logout {
+    color: #e0e0e0;
+}
+
+#logout:hover {
+    color: #fff;
+    background-color: transparent;
+}
+
+.navbar-form .form-control {
+    width: 244px;
+}
+
+#feed-info {
+    float: left;
+}
+
+#cancellation {
+    position: relative;
+    bottom: -45px;
+}
+
+.nav-feed-title {
+    padding: 0       !important;
+    color: #333;
+}
+
+.nav-feed-title:focus {
+    color: #333;
+    background-color: transparent
+}
+
+.nav-feed-title:hover {
+    color: #333;
+}
+
+a, a:focus {
+    color: #333;
+    text-decoration: none;
+    background-color: transparent     !important;
+}
+
+a:hover {
+    color: #333;
+    background-color: transparent     !important;
+}

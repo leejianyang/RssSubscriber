@@ -1,0 +1,8 @@
+export RSS_MYSQL_HOST='127.0.0.1'
+export RSS_MYSQL_DB='rss'
+export RSS_MYSQL_PASSWORD=''
+export RSS_MYSQL_USER='root'
+export RSS_USERNAME='user'
+export RSS_PASSWORD='123456'
+export RSS_JWT_SECRET='VOW54MPi70A6vJYuWkkGreu2IXhZDTnI'
+export RSS_ENV='dev'
