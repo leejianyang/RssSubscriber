@@ -9,6 +9,13 @@ new Vue({
         isUsernameInvalid: false
     },
 
+    created: function() {
+        this.apiToken = Cookies.get('token');
+        if (this.apiToken) {
+            window.location.href = '/';
+        }
+    },
+
     methods: {
         login: function() {
             this.username = this.useranme.replace(/(^\s*)|(\s*$)/g, "");
