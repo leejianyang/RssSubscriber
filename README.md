@@ -24,6 +24,7 @@
 
 ### 后端
 - Flask-rest作为后端Web框架，提供RESTful API
+- 使用JWT(JSON Web Tokens)协议进行API身份认证
 - 基于Celery框架实现定时任务
 - SQLAlchemy作为ORM库
 - MySQL作为数据库存储
